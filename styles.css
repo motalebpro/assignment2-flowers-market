@@ -1,5 +1,9 @@
-p {
+body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .noto-serif {
@@ -8,9 +12,33 @@ p {
   font-style: normal;
 }
 
+/* Primary Button */
+.primary-color {
+  color: #E95A08;
+}
+
+.primary-btn {
+  background-color: #E95A08;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border: none;
+  padding: 12px 36px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.primary-btn:hover {
+  background-color: #f77022;
+}
+
+/* Header Section */
 header {
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif
@@ -47,12 +75,61 @@ ul.nav-menu li a {
 
 /*Banner Style*/
 .banner {
-  width: 1140px;
+  max-width: 1140px;
   display: flex;
-  margin: 0 auto;
+  margin: 100px auto;
   align-items: flex-end;
+}
+
+.banner-text h1 {
+  font-size: 65px;
+}
+
+.banner-text p {
+  font-size: 22px;
 }
 
 .primary-col {
   color: #E95A08;
+}
+
+/* Plants Section */
+.plant-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.ps-title {
+  text-align: center;
+}
+
+.ps-title h2 {
+  font-size: 50px;
+}
+
+.ps-title p {
+  font-size: 22px;
+}
+
+.plant-item {
+  text-align: center;
+  color: #111111;
+}
+
+.plant-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+.plant-item {}
+
+.plant-item img {
+  width: 100%;
+}
+
+.plant-item h3 {
+  line-height: 0.5;
+  font-size: 22px;
 }
