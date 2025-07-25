@@ -2,7 +2,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p,
+li {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -132,4 +133,43 @@ ul.nav-menu li a {
 .plant-item h3 {
   line-height: 0.5;
   font-size: 22px;
+}
+
+/* Flower Lover Section */
+.flower-lover {
+  max-width: 1140px;
+  margin: 200px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.flower-lover-description {
+  padding-left: 35px;
+
+}
+
+.flower-lover-description h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  line-height: 1;
+  margin-left: 20px;
+}
+
+.flower-lover-description li {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.trusted-image {
+  position: absolute;
+  z-index: 1;
+  top: -130px;
+  left: 365px;
+}
+
+.trusted-g {
+  width: 286px;
+  filter: drop-shadow(-4px 9px 3px rgba(0, 0, 0, 0.5));
+
 }
